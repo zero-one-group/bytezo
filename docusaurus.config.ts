@@ -81,7 +81,7 @@ const config: Config = {
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} BYTEZO. Where junior developers go to level up.`,
+      copyright: `Copyright © ${new Date().getFullYear()} Zero One Group. Where junior developers go to level up.`,
     },
     prism: {
       theme: prismThemes.github,
