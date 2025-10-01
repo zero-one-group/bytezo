@@ -1,0 +1,53 @@
+/**
+ * BYTEZO - Black and White Color Scheme
+ * Where junior developers go to level up.
+ */
+
+/* Light theme - predominantly white with black accents */
+:root {
+  --ifm-color-primary: #000000;
+  --ifm-color-primary-dark: #000000;
+  --ifm-color-primary-darker: #000000;
+  --ifm-color-primary-darkest: #000000;
+  --ifm-color-primary-light: #333333;
+  --ifm-color-primary-lighter: #666666;
+  --ifm-color-primary-lightest: #999999;
+  
+  --ifm-background-color: #ffffff;
+  --ifm-navbar-background-color: #ffffff;
+  --ifm-footer-background-color: #f8f9fa;
+  --ifm-footer-color: #333333;
+  
+  --ifm-code-font-size: 95%;
+  --docusaurus-highlighted-code-line-bg: rgba(0, 0, 0, 0.1);
+  
+  --ifm-color-secondary: #f5f5f5;
+  --ifm-color-success: #000000;
+  --ifm-color-info: #666666;
+  --ifm-color-warning: #333333;
+  --ifm-color-danger: #000000;
+}
+
+/* Dark theme - predominantly black with white accents */
+[data-theme='dark'] {
+  --ifm-color-primary: #ffffff;
+  --ifm-color-primary-dark: #ffffff;
+  --ifm-color-primary-darker: #ffffff;
+  --ifm-color-primary-darkest: #ffffff;
+  --ifm-color-primary-light: #cccccc;
+  --ifm-color-primary-lighter: #999999;
+  --ifm-color-primary-lightest: #666666;
+  
+  --ifm-background-color: #000000;
+  --ifm-navbar-background-color: #000000;
+  --ifm-footer-background-color: #1a1a1a;
+  --ifm-footer-color: #cccccc;
+  
+  --docusaurus-highlighted-code-line-bg: rgba(255, 255, 255, 0.1);
+  
+  --ifm-color-secondary: #1a1a1a;
+  --ifm-color-success: #ffffff;
+  --ifm-color-info: #999999;
+  --ifm-color-warning: #cccccc;
+  --ifm-color-danger: #ffffff;
+}

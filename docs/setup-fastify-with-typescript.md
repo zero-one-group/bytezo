@@ -1,0 +1,1 @@
+# 8. Setup Fastify with TypeScript
